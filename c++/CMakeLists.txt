@@ -85,6 +85,10 @@ endif()
 
 add_subdirectory(src)
 
+# Samples =======================================================================
+
+add_subdirectory(samples)
+
 # Install ======================================================================
 
 if(NOT MSVC)  # Don't install pkg-config files when building with MSVC
